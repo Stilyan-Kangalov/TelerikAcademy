@@ -1,0 +1,93 @@
+body {
+	background-color:#000;
+}
+
+table {
+    margin: 50px auto;
+	border-collapse:collapse;
+	border-color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+td {
+	width: 180px;
+	padding-left: 10px;
+}
+
+#int1 {
+	background-color: #58bb06;
+	border-bottom-color: #858580;
+	color: #fff;
+}
+	
+#int2 {
+	background-color: #fff;
+	
+}	
+
+#int3 {
+	background-color: #ececd8;
+	
+}
+
+#int4 {
+	background-color: #fff;
+	
+}
+
+#int5 {
+	background-color: #ececd8;
+}
+
+tr {
+	height: 35px;
+}
+
+td, th {
+ border-right-color: #858580;
+ border-top: none;
+ border-left: none;
+ border-bottom: none;
+ }
+
+img {
+	margin-right: 8px;
+}
+
+.mm1 {
+	width: 200px;
+}
+
+.mm2 {
+	width: 157px;
+}
+
+.mm3 {
+	width: 181px;
+}
+
+.mm4 {
+	width: 120px;
+}
+
+/* base styles */
+
+input[type="checkbox"] {
+
+height: 16px;
+
+width: 16px;
+
+}
+
+ 
+/* checkbox checked bg */
+
+input[type="checkbox"]:checked,
+
+input[type="checkbox"]:checked:active {
+
+background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAMAAADXT/YiAAAAOVBMVEX///8zMzMqKipCQkI8PDwzMzNISEhISEhISEhCQkIqKio8PDwzMzMqKipISEhCQkI8PDwzMzMqKipFad0NAAAAE3RSTlMAIiIzMzNEZnd3qru7u8zMzMzMuKlnZwAAADhJREFUCNdjYIACJhjNJQRl8ApBWIw8goKsDDw8UAaDgAA3t4AAC1CGkx8ImMGKOPj42KAmsEMYAEUyAa2GdxXhAAAAAElFTkSuQmCC") center no-repeat, -webkit-linear-gradient(#FCFCFC, #DFDFDF);
+
+}

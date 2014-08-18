@@ -1,0 +1,38 @@
+body { background-color: #000;
+}
+
+td { border:1px solid #afb1b6;
+color: #525354;
+font-size:80%;
+font-family:Arial, Helvetica, sans-serif
+
+}
+tr, td, select {
+margin-top: 5px;
+}
+
+td#sec {
+-webkit-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px; 
+}
+
+td#sec1 {
+-webkit-border-radius: 0px 0px 10px 10px;
+border-radius: 0px 0px 10px 10px; 
+}
+
+div {
+position: absolute;
+left:10%;
+top:2%;
+
+}
+
+#mt {
+	margin: 0px 0px 0px 14px;
+}
+
+#lt {
+	float: right;
+	margin-top: 9px;
+}  

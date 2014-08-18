@@ -1,0 +1,53 @@
+body {
+	background-color: #a9a9a9;
+}
+
+#int1 {
+	text-align: center;
+	
+}
+
+header {
+	color: #fafad2;
+	font-weight:900;
+	font-size: 161%
+}
+
+ul li {
+	list-style-type: none;
+}
+
+#int2 {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
+}
+
+A:link {text-decoration: none; color: #fff;}
+A:visited {text-decoration: none; color: #fff;}
+A:active {text-decoration: none; color: #fff;}
+A:hover {text-decoration: underline; color: #fff;}
+
+.current {
+	background-color: #d3d3d3;
+}
+
+a.wt1:link {text-decoration: none; color: #000;}
+a.wt1:visited {text-decoration: none; color: #000;}
+a.wt1:active {text-decoration: none; color: #000;}
+a.wt1:hover {text-decoration: none; color: #fff;}
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 110%;
+}
+
+.xv1 {
+	font-size: 90%;
+	
+}
+
+a.current1:link {text-decoration: underline; color: #fff;}
+a.current1:visited {text-decoration: none; color: #fff;}
+a.current1:active {text-decoration: none; color: #fff;}
+a.current1:hover {text-decoration: none; color: #fff;}

@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+<head>
+ <title>HTML Tables - Exercise 5</title>
+ <link type="text/css" rel="stylesheet" href="styles/start2.css" /> 
+ </head>
+	<body>
+		<div>
+			<table style=border:1px cellpadding="4" cellspacing="0">
+				<tr>
+					<td id="sec" colspan=6 bgcolor="#e8e9eb"><b>Drag a column header and drop it here to group by that column</b></td>
+				</tr>
+				<tr>
+					<td width=79 bgcolor="#ebecee"><b>ProductID</b></td>
+					<td width=278 bgcolor="#ebecee"><b>Product name</b></td>
+					<td width=177 bgcolor="#ebecee"><b>Unit price</b></td>
+					<td width=170 bgcolor="#ebecee"><b>Quantity per unit</b></td>
+					<td width=185 bgcolor="#ebecee"><b>Units in stock</b></td>
+					<td width=93 bgcolor="#ebecee"><b>Discontinued</b></td>
+				</tr>
+				<tr valign=top>
+					<td width=79 bgcolor="#dfe2e7"><input type="text" style="width: 32px; height:21px;" name="id" /></td>
+					<td width=278 bgcolor="#dfe2e7"><input type="text" style="width: 162px; height:21px;" name="name" /></td>
+					<td width=177 bgcolor="#dfe2e7"><input type="text" style="width: 89px; height:21px;" name="price" /> <button type="button" style="height: 23px; width: 31px;"> <img src="images/btn5.gif" alt="1" /></button></td>
+					<td width=170 bgcolor="#dfe2e7"><input type="text" style="width: 104px; height:21px;" name="unit" /></td>
+					<td width=185 bgcolor="#dfe2e7"><input type="text" style="width: 86px; height:21px;" name="stock" /> <button type="button" style="height: 24px; width: 31px;"> <img src="images/btn5.gif" alt="1" /></button></td>
+					<td width=93 bgcolor="#dfe2e7"><input type="checkbox" name="vol" value="t1" /> <button type="button" style="height: 24px; width: 31px;"> <img src="images/btn5.gif" alt="1" /></button></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>1</b></td>
+					<td width=278><b>Chai</b></td>
+					<td width=177><b>$18.00</b></td>
+					<td width=170><b>10 boxes x 20 bags</b></td>
+					<td width=185><b>39</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>2</b></td>
+					<td width=278><b>Chang</b></td>
+					<td width=177><b>$19.00</b></td>
+					<td width=170><b>24 - 19 oz bottles</b></td>
+					<td width=185><b>17</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>3</b></td>
+					<td width=278><b>Aniseed Syrup</b></td>
+					<td width=177><b>$10.00</b></td>
+					<td width=170><b>12 - 550 ml bottles</b></td>
+					<td width=185><b>13</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>4</b></td>
+					<td width=278><b>Chef Anton's Cajun Seasoning</b></td>
+					<td width=177><b>$22.00</b></td>
+					<td width=170><b>48 - 6 oz jars</b></td>
+					<td width=185><b>53</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>5</b></td>
+					<td width=278><b>Chef Anton's Gumbo Mix</b></td>
+					<td width=177><b>$21.00</b></td>
+					<td width=170><b>36 boxes</b></td>
+					<td width=185><b>0</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>6</b></td>
+					<td width=278><b>Grandma's Boysenberry Spread</b></td>
+					<td width=177><b>$25.00</b></td>
+					<td width=170><b>12 - 8 oz jars</b></td>
+					<td width=185><b>120</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>7</b></td>
+					<td width=278><b>Uncle Bob's Organic Dried Pears</b></td>
+					<td width=177><b>$30.00</b></td>
+					<td width=170><b>12 - 1 lb pkgs.</b></td>
+					<td width=185><b>15</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>8</b></td>
+					<td width=278><b>Northwoods Cranberry Sauce</b></td>
+					<td width=177><b>$40.00</b></td>
+					<td width=170><b>12 - 12 oz jars</b></td>
+					<td width=185><b>6</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>9</b></td>
+					<td width=278><b>Mishi Kobe Niku</b></td>
+					<td width=177><b>$97.00</b></td>
+					<td width=170><b>18 - 500 g pkgs.</b></td>
+					<td width=185><b>29</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr bgcolor="#ffffff">
+					<td width=79><b>10</b></td>
+					<td width=278><b>Ikura</b></td>
+					<td width=177><b>$31.00</b></td>
+					<td width=170><b>12 - 200 ml jars</b></td>
+					<td width=185><b>31</b></td>
+					<td width=93><input type="checkbox" name="vol" value="t1" /></td>
+				</tr>
+				<tr valign=top>
+					<td id="sec1" colspan=6 bgcolor="#cdd0d5"><button type="button"> <img src="images/btn1.jpg" alt="1" /> </button>
+						<button type="button"> <img src="images/btn2.jpg" alt="1" /> </button> <b>1 2 3 4 5 6 7 8 9 10 ...</b>
+						<button type="button"> <img src="images/btn3.jpg" alt="1" /> </button>
+						<button type="button"> <img src="images/btn4.jpg" alt="1" /> </button>
+						<b id="mt">Page size:</b>
+						<select style="width: 50px; height: 20px;">
+							<option value="10">10</option>
+							<option value="9">9</option>
+							<option value="8">8</option>
+							<option value="7">7</option>
+						</select> 
+						
+						<b id="lt">335104 items in 33511 pages</b>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>	
