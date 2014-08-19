@@ -1,0 +1,202 @@
+#menu {
+    float: left;
+    margin: 5px 0 0;
+    padding: 0;
+    width: 170px
+}
+
+#base-content {
+	background-color: #FFFFFF;
+    color: #000000;
+    float: left;
+    margin-top: 3px;
+    padding: 4px 5px 8px 0;
+    width: 634px;
+	border: 1px solid black;
+	font-size: 84%;
+}
+
+aside {
+	text-align: center;
+    margin-top: 3px;
+    padding: 0;
+    width: 190px;
+	font-size: 84%;
+	float: left;
+}
+
+body {
+	border: 1px solid black;
+    height: 731px;
+    top: 0;
+    width: 1004px;
+	background-color: #f1f1f1;
+	font-family: verdana,helvetica,arial,sans-serif;
+}
+
+
+h2 {
+	font-size: 84%;
+	color: #900B09;
+	
+}
+
+.rm1 {
+	margin-bottom: -2px;
+}
+
+#menu a {
+	font-size: 84%;
+}
+
+#menu a:link,
+#menu a:visited {
+    color: black;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+#base-content  h2 {
+	color: white;
+	background-color: #808080;
+	padding-left: 3px;
+	margin-left: 4px;
+	padding-bottom: 1px;
+}
+
+.links {
+	border: 1px solid #808080;
+	margin-bottom: 1px;
+	margin-left: 2px;
+	background-color: white;
+}
+
+
+
+.links a {
+    color: #900B09;
+}
+
+.byas p {
+	margin: 0;
+    
+}
+
+aside h2 {
+	background-color: #808080;
+    color: white;
+    margin-top: 0;
+    padding-bottom: 3px;
+    padding-top: 1px;
+}
+
+.shr { 
+	float: left;
+    margin: 0 10px;
+    width: 117px;
+}
+
+#mtr {
+	padding-bottom: 12px;
+	font-weight: bold;
+}
+
+.mx {
+	padding-left: 24px;
+}
+
+#search {
+	margin-left: -4px;
+    margin-top: 2px;
+    position: absolute;
+    width: 115px;
+}
+
+.button  {
+	font-size: 17px;
+    font-weight: bold;
+    margin-left: 119px;
+    position: inherit;
+}
+
+input[type=submit] {
+    height: 26px;
+    padding: 0;
+}
+
+.edit {
+	margin-left: 4px;
+}
+
+.pro {
+	   margin-top: -18px;
+}
+
+#base-content a {
+	color: #900B09;
+}
+
+.buttons {
+	
+}
+
+.part1 {
+	margin-top: 11px;
+}
+
+.er1 {
+	margin-top: 52px;
+}
+
+.lft {
+	margin-left: -8px;
+}
+
+.tmt2a {
+	margin-left: -9px;
+	margin-top: -1px;
+}
+
+.ed1 {
+	margin-top: 40px;
+	margin-bottom: 62px;
+}
+
+hr {
+	margin-left: 4px;
+}
+
+.ht1 {
+	margin-left: 4px;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+#a11  {
+	width: 24;
+	height: 27;
+	margin-top: 8px;
+	float: left;
+}
+
+.shr2 {
+	float: left;
+    margin: 0 10px;
+}
+
+.h1 {
+	font-weight: bolder;
+}
+
+.b1 {
+	padding-bottom: 7px;
+    
+}
+.c1 {
+	padding-top: 4px;
+}
+
+.rpp {
+	margin-left: -9px;
+    margin-top: -1px;
+}

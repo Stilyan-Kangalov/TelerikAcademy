@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>CSS - Homework 2 - Part 4</title>
+		<link rel="stylesheet" type="text/css" href="style4.css">
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<section>
+			<article id="base">
+			 <div id="wrapper">
+			  <div id="can-border"> <!-- The canvas with two pics and one string -->
+			   <img id="cal-pic" src="icon-cal.gif" alt="pic1a" width="13" height="19" />
+			   <div id="sim-string"><p>Calculator</p></div>
+			   <img id="op-buttons" src="tm5.jpg" alt="pic2a" width="107" height="22" />
+			   
+			   <div id="perfect-box"> <!-- Start box -->
+			    
+				<div id="menu-top"> <!-- Section 1 -->
+				   <ul class="options style">
+					   <li><span class="lt1">V</span>iew</li>
+					   <li><span class="lt1">E</span>dit</li>
+					   <li><span class="lt1">H</span>elp</li>
+				   </ul>
+				   
+				</div> <!-- End of section 1 -->
+				
+				<div id="bin-box"> <!-- Section 2 -->
+					<form class="bm1">
+						<input type="text" class="bm2 dyps2" value="8854455" />
+					</form> 
+				</div> <!-- section 2 -->
+				
+				<div id="num-bin-box"> <!-- Section 3 -->
+					<table class="code">
+						<tr class="th">
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+						</tr>
+						<tr class="spfont">
+							<td>63 &nbsp;</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>47</td>
+							<td></td>
+							<td></td>
+							<td>&nbsp; 32</td>
+						</tr>
+						<tr class="th">
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0101</td>
+							<td>0111</td>
+						</tr>
+						<tr class="spfont">
+							<td>31 &nbsp;</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>15</td>
+							<td></td>
+							<td></td>
+							<td>&nbsp; 0</td>
+						</tr>
+					</table>
+				</div> <!-- End of section 3 -->
+				
+				   <div class="num-rows"> <!-- Section 4 -->
+					   <div class="s4">
+						   <form class="box1 dyps1">
+							   <ul class="normal">
+								   <li><label><input type="radio" name="nom" value="hex" /> Hex</label></li>
+								   <li><label><input type="radio" name="nom" value="dec" checked /> Dec</label></li>
+								   <li><label><input type="radio" name="nom" value="oct" /> Oct</label></li>
+								   <li><label><input type="radio" name="nom" value="bin" /> Bin</label></li>
+							   </ul>
+						   </form>
+						   <br />
+						   <form class="box2 dyps1">
+							   <ul class="normal">
+								   <li><label><input type="radio" name="tp3" value="qword" checked /> Qword</label></li>
+								   <li><label><input type="radio" name="tp3" value="dword" /> Dword</label></li>
+								   <li><label><input type="radio" name="tp3" value="word" /> Word</label></li>
+								   <li><label><input type="radio" name="tp3" value="byte" /> Byte</label></li>
+							   </ul>
+						   </form>
+					   </div> <!-- the end of s4 -->
+					  </div> <!-- End of section 4 -->
+					   
+					 <div id="num-buttons"> <!-- Section 5 -->
+						 
+						<form class="span8">
+							 <div class="num-rows">
+								 <button class="clear">&nbsp;</button>
+								 <button class="r1a cb">Mod</button>
+								 <button class="clear bp7" disabled><span class="re">A</span></button>
+								 <button class="clear cb">MC</button>
+								 <button class="clear cb">MR</button>
+								 <button class="clear cb">MS</button>
+								 <button class="clear cb">M+</button>
+								 <button class="clear cb">M-</button>
+							 </div>
+							 
+							 <div class="num-rows">
+								 <button class="r1a cb">(</button>
+								 <button class="r1a cb">)</button>
+								 <button class="clear bp7 fnsize" disabled><span class="re">B</span></button>
+								 <button class="r1a cb dec fnsize2"><span id="xcc">&#8592;</span></button>
+								 <button class="r1a cb">CE</button>
+								 <button class="r1a cb">C</button>
+								 <button class="r1a cb">&#177;</button>
+								 <button class="clear bp7" disabled><span class="re">&#8730;</span></button>
+								 </div>
+								 
+								<div class="num-rows">
+								<button class="r1a cb">RoL</button>
+								<button class="r1a cb">RoR</button>
+								<button class="clear bp7 fnsize" disabled><span class="re">C</span></button>
+								<button class="r1b cb fnsize">7</button>
+								<button class="r1b cb fnsize">8</button>
+								<button class="r1b cb fnsize">9</button>
+								<button class="r1a cb">/</button>
+								<button class="clear bp7" disabled><span class="re">%</span></button>
+								</div>
+								 
+								 <div class="num-rows">
+									 <button class="r1a cb">Or</button>
+									 <button class="r1a cb">Xor</button>
+									 <button class="clear fnsize bp7" disabled><span class="re">D</span></button>
+									 <button class="r1b cb">4</button>
+									 <button class="r1b cb">5</button>
+									 <button class="r1b cb">6</button>
+									 <button class="r1a cb">*</button>
+									 <button class="clear bp7" disabled><span class="re">1/x</span></button>
+								 </div>
+								 
+								 <div class="num-rows">
+									   <div class="num-rows1">
+										<button class="r1a cb">Lsh</button>
+										<button class="r1a cb">Rsh</button>
+										<button class="clear fnsize bp7" disabled><span class="re">E</span></button>
+										<button class="r1b cb fnsize">1</button>
+										<button class="r1b cb fnsize">2</button>
+										<button class="r1b cb fnsize">3</button>
+										<button class="r1a cb">-</button>
+										 </div>
+										 
+										<div class="num-rows2">
+										<button class="r1a cb">Not</button>
+										<button class="r1a cb">And</button>
+										<button class="clear fnsize bp7" disabled><span class="re">F</span></button>
+										<button class="r5aa r3a cb fnsize">0</button>
+										<button class="clear bp7" disabled><span class="re">.</span></button>
+										<button class="r1a cb">+</button>
+									</div>
+								</div>
+									 
+									 <button class="r1a r4a cb fnsize1"><strong>=</strong></button>
+									</form> 
+							</div> <!-- End of section 5 -->
+						
+					 </div>  <!-- End Box -->
+					   
+				</div>  <!-- End Canvas -->
+			
+			  </div> <!-- End wrapper -->
+			   
+		</article>
+	</section>
+		
+ </body>
+	
+</html>

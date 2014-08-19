@@ -1,0 +1,90 @@
+article {
+	background-color: #1e3741;
+    width: 724px;
+    height: 391px;
+	color: #b3b8b4;
+	margin: 20px auto;
+	border: 2px solid #2c5963;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#table {
+	border: none;
+	width: 282px;
+	height: 322px;
+	font-family: Arial,Verdana,Tahoma;
+	font-size: 13.5px;
+	font-weight: bold;
+	
+}
+
+#int1 {
+	background-color: #00968c;
+	border: medium none;
+    padding-bottom: 2px;
+    padding-top: 2px;
+	color: white;
+}
+
+ol, ul {
+    list-style: none outside none;
+	font-family: Arial,Verdana,Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.nav {
+	height: 37px;
+    margin-left: -47px;
+    width: 620px;
+}
+
+ul li {
+	float: left;
+	border-right: 1px solid #1e3741;
+	line-height: 40px;
+	padding: 0 15px;
+	margin-top: 11px;
+}
+
+p {
+	margin: 13px 15px 13px 9px;
+	
+	
+}
+
+.br1 {
+	border-bottom: 2px solid #2f454f;
+}
+
+#table-data {
+	margin-top: 28px;
+	
+}
+
+.m1 {
+	color: white;
+}
+
+.m2 {
+	background-color: #4b5f67;
+	color: #90a7ad;
+}
+
+.m3 {
+	text-decoration: underline;
+}
+
+#int5 {
+	border: none;
+}
+
+img {
+    margin-left: 278px;
+    margin-top: -322px;
+    position: fixed;
+}
+
+.nav {
+	margin-top: -1px;
+}

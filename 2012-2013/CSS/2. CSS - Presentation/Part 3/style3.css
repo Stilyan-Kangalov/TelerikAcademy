@@ -1,0 +1,16 @@
+body {
+    width: 1262px;
+  
+}
+
+article {
+	margin-top: 42px;
+}
+
+div {
+	border-radius: 60px; 
+    background: none repeat scroll 0 0 #000;
+    padding-right: 3%;             
+    border: 1px solid #f00;            
+}
+

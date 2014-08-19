@@ -1,0 +1,26 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+ul {
+	width: 150px;
+	list-style-type: none;
+}
+
+a:link {color:#000;}      
+a:visited {color:#000;}  
+a:hover {color:#000;}  
+a:active {color:#000;}  
+				
+.rm1 ul {
+	display: none;
+}
+
+.rm1 li {
+    color: #999;
+}
+
+.rm1:hover  > ul {
+	display: block;
+}				

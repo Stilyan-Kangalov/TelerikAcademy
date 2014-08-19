@@ -1,0 +1,22 @@
+section {
+	color: #0094ff;
+}
+
+p {
+	font-family:Consolas,'Lucida Console','DejaVu Sans Mono',monospace;
+}
+
+@font-face {  
+  font-family: esFont;  
+  src: url("ITCEdscr.ttf") format("truetype");  
+}  
+
+
+#tm1 p strong  {
+	font-family: esFont;
+	font-size: 50px;
+}
+
+#tm2  {
+	font-weight: bold;
+}
