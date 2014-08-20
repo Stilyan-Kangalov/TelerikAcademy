@@ -1,0 +1,74 @@
+$br1: 1px solid #ffcc00;
+$br2: 1px solid #FFFFFF;
+
+@mixin newmix {
+    display: block;
+    height: 500px;
+    left: 9px;
+    position: absolute;
+    top: 192px;
+    z-index: 10;
+}
+
+body {
+    background-color: white;
+}
+
+article {
+    background: none;
+    height: 811px;
+    margin: 10px auto;
+    position: relative;
+    width: 1247px;
+	
+li {
+    list-style:none;
+}	
+
+a.photos:active {
+img.thumb {
+    border: $br1;
+}
+span {
+    @include newmix;
+}       }
+a.photos:focus {
+    outline: 0 none;
+img.thumb {
+    border: $br1;
+}
+span {
+    @include newmix;
+} }	}
+
+article a.photos {
+    display: inline;
+    float: left;
+    height: 75px;
+    padding: 7px 25px 0 30px;
+    width: 75px;
+	margin-left: -61px;
+    margin-right: 40px;
+
+img.thumb {
+    border: $br2;
+    display: block;
+}
+
+span {
+    display: none;
+    margin-left: 5px;
+    width: auto;
+img {
+    border: $br2;
+    margin: 10px auto;
+} } }
+
+article a.photos:hover {
+    white-space: normal;
+img.thumb {
+    border: $br1;
+}	
+span {
+    @include newmix;
+}	}
