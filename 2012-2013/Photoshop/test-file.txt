@@ -29,3 +29,5 @@ Run Script Test
 = Task 14 ( store info )
 
 = Task 15 ( wrd )
+
+= Task 16 ( new )
